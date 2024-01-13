@@ -1,0 +1,10 @@
+{
+  "name": "Universal.js & Universal",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {
+      "multiUser": true,
+      "version": "latest"
+    }
+  }
+}
