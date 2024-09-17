@@ -1,6 +1,6 @@
 name: My workflow
 on: [push, pull_request]
-jobs:
+jobs: $BUNDLE_GEMFILE
   test:
     strategy:
       fail-fast: false
